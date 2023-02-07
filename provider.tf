@@ -6,3 +6,10 @@ provider "aws" {
   alias = "Hyderabad"
   region = "ap-south-2"
 }
+
+provider "azurerm" {
+    features {
+      
+    }
+  
+}
